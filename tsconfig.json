@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true, 
+    "emitDecoratorMetadata": true, // 为带有装饰器的声明生成元数据 搭配reflect-metadata使用 实现设计阶段添加的类型信息可以在运行时使用
+    "experimentalDecorators": true, // 装饰器特性
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false, // 防止使用any时报错 导致程序中断
+    "strictBindCallApply": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true
+  }
+}
